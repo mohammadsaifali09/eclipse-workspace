@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" id="WebApp_ID" version="4.0">
+  <display-name>servlet_demo</display-name>
+  <welcome-file-list>
+    <welcome-file>login1.html</welcome-file>
+  </welcome-file-list>
+  
+  <!-- Naming the servlet -->
+  
+  <servlet>
+      <servlet-name>first</servlet-name>
+      <servlet-class>org.jsp.servletdemo.FirstServlet</servlet-class>
+  </servlet>
+  
+  <servlet>
+      <servlet-name>myServlet</servlet-name>
+      <servlet-class>org.jsp.servletdemo.MyServlet</servlet-class>
+  </servlet>
+  
+  <servlet>
+      <servlet-name>secondServlet</servlet-name>
+      <servlet-class>org.jsp.servletdemo.SecondServlet</servlet-class>
+  </servlet>
+  
+  <servlet>
+      <servlet-name>test</servlet-name>
+      <servlet-class>org.jsp.servletdemo.Test</servlet-class>
+      <load-on-startup>12</load-on-startup>
+  </servlet>
+  
+  <!-- Mapping the servlet -->
+  
+  <servlet-mapping>
+      <servlet-name>first</servlet-name>
+      <url-pattern>/fs</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+      <servlet-name>myServlet</servlet-name>
+      <url-pattern>/ms</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+      <servlet-name>secondServlet</servlet-name>
+      <url-pattern>/ss</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+      <servlet-name>test</servlet-name>
+      <url-pattern>/test</url-pattern>
+  </servlet-mapping>
+  
+</web-app>

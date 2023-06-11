@@ -1,0 +1,12 @@
+0:0:0:0:0:0:0:1 - - [24/May/2023:12:42:00 +0530] "GET /spring-mvc-demo/ HTTP/1.1" 200 176
+0:0:0:0:0:0:0:1 - - [24/May/2023:12:42:01 +0530] "GET /favicon.ico HTTP/1.1" 404 762
+0:0:0:0:0:0:0:1 - - [24/May/2023:12:42:04 +0530] "GET /spring-mvc-demo/register.jsp HTTP/1.1" 200 541
+0:0:0:0:0:0:0:1 - - [24/May/2023:12:42:17 +0530] "POST /spring-mvc-demo/register HTTP/1.1" 200 264
+0:0:0:0:0:0:0:1 - - [24/May/2023:12:43:40 +0530] "POST /spring-mvc-demo/register HTTP/1.1" 200 264
+0:0:0:0:0:0:0:1 - - [24/May/2023:12:43:46 +0530] "GET /spring-mvc-demo/register.jsp HTTP/1.1" 200 545
+0:0:0:0:0:0:0:1 - - [24/May/2023:12:44:01 +0530] "POST /spring-mvc-demo/register HTTP/1.1" 200 263
+127.0.0.1 - - [24/May/2023:19:27:43 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [24/May/2023:19:27:48 +0530] "GET /springmvc-user-app/ HTTP/1.1" 200 95
+0:0:0:0:0:0:0:1 - - [24/May/2023:19:27:49 +0530] "GET /favicon.ico HTTP/1.1" 404 762
+0:0:0:0:0:0:0:1 - - [24/May/2023:19:27:53 +0530] "GET /springmvc-user-app/register.jsp HTTP/1.1" 200 478
+0:0:0:0:0:0:0:1 - - [24/May/2023:19:28:14 +0530] "POST /springmvc-user-app/save HTTP/1.1" 200 159
